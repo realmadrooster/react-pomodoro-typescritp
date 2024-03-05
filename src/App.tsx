@@ -5,7 +5,7 @@ import { JsxElement } from 'typescript';
 function App(): JSX.Element {
   return (
     <div className="container">
-      <PomodoroTimer PomodoroTime={1500} shortRestTime={300} longRestTime={900}
+      <PomodoroTimer PomodoroTime={10} shortRestTime={2} longRestTime={5}
       cycles={4}
       />
     </div>
